@@ -1,0 +1,109 @@
+2020-06-06 21:19:08.154  INFO 17399 --- [restartedMain] com.car.app.CarsappApp                   : The following profiles are active: dev,swagger
+2020-06-06 21:19:09.823  WARN 17399 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-06 21:19:11.220 DEBUG 17399 --- [restartedMain] i.m.c.u.i.logging.InternalLoggerFactory  : Using SLF4J as the default logging framework
+2020-06-06 21:19:11.567 DEBUG 17399 --- [restartedMain] com.car.app.config.CacheConfiguration    : Configuring Hazelcast
+2020-06-06 21:19:11.650 DEBUG 17399 --- [restartedMain] com.car.app.config.CacheConfiguration    : Configuring Hazelcast clustering for instanceId: carsapp
+2020-06-06 21:19:11.651 DEBUG 17399 --- [restartedMain] com.car.app.config.CacheConfiguration    : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2020-06-06 21:19:11.785  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-06 21:19:12.028  INFO 17399 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-06 21:19:12.028  INFO 17399 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-06 21:19:12.192  INFO 17399 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-06 21:19:12.192  INFO 17399 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-06 21:19:12.506  INFO 17399 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:19:12.536  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-06 21:19:12.536  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-06 21:19:12.536  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-06 21:19:12.536  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-06 21:19:12.536  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-06 21:19:12.537  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-06 21:19:12.537  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-06 21:19:12.980  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-06 21:19:12.983  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2020-06-06 21:19:12.986  INFO 17399 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2020-06-06 21:19:12.991  INFO 17399 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1591458552990 with initial instances count: 0
+2020-06-06 21:19:13.078  INFO 17399 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.12.7] Picked [127.0.0.1]:13782, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13782], bind any local is true
+2020-06-06 21:19:13.088  INFO 17399 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13782 [dev] [3.12.7] Hazelcast 3.12.7 (20200430 - bf4b643) starting at [127.0.0.1]:13782
+2020-06-06 21:19:13.088  INFO 17399 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13782 [dev] [3.12.7] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2020-06-06 21:19:13.325  INFO 17399 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13782 [dev] [3.12.7] Backpressure is disabled
+2020-06-06 21:19:13.884  INFO 17399 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13782 [dev] [3.12.7] Creating TcpIpJoiner
+2020-06-06 21:19:14.246  INFO 17399 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13782 [dev] [3.12.7] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+2020-06-06 21:19:14.249  INFO 17399 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13782 [dev] [3.12.7] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2020-06-06 21:19:14.263  INFO 17399 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13782 [dev] [3.12.7] [127.0.0.1]:13782 is STARTING
+2020-06-06 21:19:14.281  INFO 17399 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13782 [dev] [3.12.7] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13782 - 097304ae-3bfe-4876-96d5-5cadd88c5dad this
+]
+
+2020-06-06 21:19:14.304  INFO 17399 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13782 [dev] [3.12.7] [127.0.0.1]:13782 is STARTED
+2020-06-06 21:19:14.575  INFO 17399 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591458554575, current=UP, previous=STARTING]
+2020-06-06 21:19:14.576  INFO 17399 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARSAPP/carsapp:16cf543bfd3aa30979696d813a48438f: registering service...
+2020-06-06 21:19:14.667  INFO 17399 --- [restartedMain] com.car.app.config.WebConfigurer         : Web application configuration, using profiles: dev
+2020-06-06 21:19:14.667 DEBUG 17399 --- [restartedMain] com.car.app.config.WebConfigurer         : Initialize H2 console
+2020-06-06 21:19:14.671  INFO 17399 --- [restartedMain] com.car.app.config.WebConfigurer         : Web application fully configured
+2020-06-06 21:19:14.778 DEBUG 17399 --- [restartedMain] com.car.app.config.AsyncConfiguration    : Creating Async Task Executor
+2020-06-06 21:19:14.810 DEBUG 17399 --- [restartedMain] c.car.app.config.LiquibaseConfiguration  : Configuring Liquibase
+2020-06-06 21:19:14.851  INFO 17399 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARSAPP/carsapp:16cf543bfd3aa30979696d813a48438f - registration status: 204
+2020-06-06 21:19:14.993  WARN 17399 --- [carsapp-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2020-06-06 21:19:16.828  INFO 17399 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2020-06-06 21:19:16.848  INFO 17399 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [carsapp].
+2020-06-06 21:19:17.902  WARN 17399 --- [restartedMain] com.car.app.security.jwt.TokenProvider   : Warning: the JWT key used is not Base64-encoded. We recommend using the `jhipster.security.authentication.jwt.base64-secret` key for optimum security.
+2020-06-06 21:19:20.020 DEBUG 17399 --- [carsapp-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 5026 ms
+2020-06-06 21:19:20.020  WARN 17399 --- [carsapp-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Warning, Liquibase took more than 5 seconds to start up!
+2020-06-06 21:19:20.644 DEBUG 17399 --- [restartedMain] com.car.app.config.CacheConfiguration    : Starting HazelcastCacheManager
+2020-06-06 21:19:20.669 DEBUG 17399 --- [restartedMain] c.car.app.config.DatabaseConfiguration   : H2 database is available on port 18081
+2020-06-06 21:19:21.873 DEBUG 17399 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2020-06-06 21:19:21.884 DEBUG 17399 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 10 ms
+2020-06-06 21:19:22.156  INFO 17399 --- [restartedMain] c.h.i.p.impl.PartitionStateManager       : [127.0.0.1]:13782 [dev] [3.12.7] Initializing cluster partition table arrangement...
+2020-06-06 21:19:22.785  WARN 17399 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-06-06 21:19:22.983  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-06-06 21:19:22.984  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-06 21:19:23.130  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-06 21:19:23.619  INFO 17399 --- [restartedMain] com.car.app.CarsappApp                   : Started CarsappApp in 17.752 seconds (JVM running for 18.457)
+2020-06-06 21:19:23.625  INFO 17399 --- [restartedMain] com.car.app.CarsappApp                   : 
+----------------------------------------------------------
+	Application 'carsapp' is running! Access URLs:
+	Local: 		http://localhost:8081/
+	External: 	http://192.168.0.107:8081/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2020-06-06 21:19:23.625  INFO 17399 --- [restartedMain] com.car.app.CarsappApp                   : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-06-06 21:19:33.132  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-06 21:19:33.357  INFO 17399 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-06 21:24:12.553  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:29:12.555  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:34:12.556  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:39:12.556  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:44:12.558  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:49:12.559  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:54:12.560  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 21:55:34.388  INFO 17399 --- [hz.carsapp.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13782 [dev] [3.12.7] processors=4, physical.memory.total=15.6G, physical.memory.free=613.5M, swap.space.total=2.0G, swap.space.free=2.0G, heap.memory.used=204.9M, heap.memory.free=1007.6M, heap.memory.total=1.2G, heap.memory.max=3.5G, heap.memory.used/total=16.73%, heap.memory.used/max=5.72%, minor.gc.count=0, minor.gc.time=0ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=100.00%, load.systemAverage=4.16, thread.count=57, thread.peakCount=59, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-06-06 21:59:12.561  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:04:12.561  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:09:12.563  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:14:12.564  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:19:12.565  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:24:12.566  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:29:12.567  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:34:12.567  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:39:12.568  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:44:12.569  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:49:12.570  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:54:12.571  INFO 17399 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-06 22:54:33.741  INFO 17399 --- [hz.ShutdownThread] com.hazelcast.instance.Node              : [127.0.0.1]:13782 [dev] [3.12.7] Running shutdown hook... Current state: ACTIVE
+2020-06-06 22:54:33.744  WARN 17399 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591464273744, current=DOWN, previous=UP]
+2020-06-06 22:54:33.745  WARN 17399 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591464273745, current=UP, previous=DOWN]

@@ -1,0 +1,15 @@
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/repository/timezone/DateTimeWrapper.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/web/rest/errors/ExceptionTranslatorTestController.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/config/WebConfigurerTestController.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/repository/timezone/DateTimeWrapperRepository.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/config/timezone/HibernateTimeZoneIT.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/domain/CarTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/web/rest/CarResourceIT.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/web/rest/TestUtil.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/ArchTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/config/WebConfigurerTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/config/StaticResourcesWebConfigurerTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/security/jwt/JWTFilterTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/security/jwt/TokenProviderTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/security/SecurityUtilsUnitTest.java
+/home/knoldus/Videos/car-app/src/test/java/com/car/app/web/rest/errors/ExceptionTranslatorIT.java
